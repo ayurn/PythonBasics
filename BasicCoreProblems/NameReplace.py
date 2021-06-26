@@ -1,8 +1,8 @@
 """
 @Author: Ayur Ninawe
-@Date: 2021-06-25 23:40:30
+@Date: 2021-06-26 11:54:00
 @Last Modified by: Ayur Ninawe
-@Last Modified time: 2021-06-25 23:40:30
+@Last Modified time: 2021-06-26 11:54:00
 @Title = 'User Input and Replace String Template “Hello <<UserName>>, How are you?”'
 """
 stringToChange = "“Hello <<UserName>>, How are you?”"
@@ -15,4 +15,3 @@ if len(name) > 3:
     print(StringReplace)
 else:
     print("Enter name which has more than three letters.")
-
