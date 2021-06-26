@@ -1,8 +1,8 @@
 """
 @Author: Ayur Ninawe
-@Date: 2021-06-25 23:51:30
+@Date: 2021-06-26 12:03:30
 @Last Modified by: Ayur Ninawe
-@Last Modified time: 2021-06-25 23:51:30
+@Last Modified time: 2021-06-26 12:03:30
 @Title : Flip Coin and print percentage of Heads and Tails
 
 """
