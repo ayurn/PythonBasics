@@ -13,23 +13,23 @@ class Factors:
     def Factors(self):
         
         print("Enter Number : ")
-        n = int(input())
-        print("Prime factors for", n, "is")
+        num = int(input())
+        print("Prime factors for", num, "is")
         #Printing the factors of a given number until it is divided by 2.
-        while n % 2 == 0:
+        while num % 2 == 0:
                 print("2")
-                n = n / 2
+                num = num / 2
 
         #If the given number is not even then this loop will print the remaining factors.
-        for i in range(3, int(math.sqrt(n)+1)):
-            while n % i == 0:
+        for i in range(3, int(math.sqrt(num)+1)):
+            while num % i == 0:
                 print(i)
-                n = n / i
+                num = num / i
             i+=2
 
         #If the remaining factor is greater than 2 it will be printing
-        if n > 2:
-            print(n)
+        if num > 2:
+            print(num)
         else:
             print()
 nums = Factors()
