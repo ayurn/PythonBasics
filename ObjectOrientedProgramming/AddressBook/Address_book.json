@@ -1,0 +1,65 @@
+[
+ {
+  "first_name": "new",
+  "last_name": "name",
+  "address": "address",
+  "city": "new-city",
+  "state": "new-state",
+  "zip_code": 12323,
+  "phone_number": 8948991833
+ },
+ {
+  "first_name": "asd",
+  "last_name": "adsa",
+  "address": "asd",
+  "city": "asd",
+  "state": "ads",
+  "zip_code": 111111,
+  "phone_number": 12432142
+ },
+ {
+  "first_name": "sadf",
+  "last_name": "asfd",
+  "address": "asdf",
+  "city": "asdf",
+  "state": "",
+  "zip_code": 121411,
+  "phone_number": 8921328443
+ },
+ {
+  "first_name": "Ayur",
+  "last_name": "Ninawe",
+  "address": "aaaaaa",
+  "city": "sssss",
+  "state": "ddddd",
+  "zip_code": 7412,
+  "phone_number": 7896324
+ },
+ {
+  "first_name": "aaaa",
+  "last_name": "bbbb",
+  "address": "dddd",
+  "city": "aaaass",
+  "state": "cddd",
+  "zip_code": 741258,
+  "phone_number": 7458963254
+ },
+ {
+  "first_name": "aabb",
+  "last_name": "wrewf",
+  "address": "wqeqe",
+  "city": "ewqeqwe",
+  "state": "rwe",
+  "zip_code": 458895,
+  "phone_number": 7485963214
+ },
+ {
+  "first_name": "aaffs",
+  "last_name": "fgrgd",
+  "address": "grg",
+  "city": "regre",
+  "state": "regreg",
+  "zip_code": "748596",
+  "phone_number": "7485125470"
+ }
+]
