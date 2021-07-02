@@ -1,6 +1,9 @@
 import json
 import re
-from LoggerFile import logger
+
+from pip._internal.utils import logging
+
+import loggerfile
 
 # Address book class here require all information of any person
 class AddressBook:
@@ -87,7 +90,7 @@ class MenuBar():
             details['zip_code'] = zip_code
             details['phone_number'] = mobile_no
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
         finally:
             return details
 
@@ -115,7 +118,7 @@ class MenuBar():
             if flag:
                 print('this name is not present in the address book')
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
 
     # Delete a person from the address book
     def delete_person(self, name):
@@ -136,7 +139,7 @@ class MenuBar():
             if flag:
                 print('this name is not present in the address book')
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
 
     # sort the all address book detail based on the address
 
@@ -167,7 +170,7 @@ class MenuBar():
                             j['phone_number']))
                         break
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
 
     # sort the all address book detail based on the first name
     def sort_by_name(self):
@@ -198,7 +201,7 @@ class MenuBar():
                         # ]," : ",j['zip_code']," : ",j['phone_number'] )
                         break
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
 
     # sort the all address book detail based on the zip code
     def sort_by_zip(self):
@@ -228,7 +231,7 @@ class MenuBar():
                             j['phone_number']))
                         break
         except Exception as e:
-            logger.error(print(e))
+            loggerfile.Logger("error", (print(e)))
 
     # save all person derails into file
     def save(self, data):
@@ -251,3 +254,4 @@ def read_File():
         return data
 
 book = read_File()
+

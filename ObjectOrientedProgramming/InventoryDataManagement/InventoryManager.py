@@ -1,14 +1,13 @@
 
+
 """
 @Author: Ayur Ninawe
 @Date: 2021-06-30 20:10:30
 @Last Modified by: Ayur Ninawe
-@Last Modified time: 2021-07-01 21:19:30
+@Last Modified time: 2021-07-02 18:19:30
 @Title : Create a JSON file having Inventory Details for Rice, Pulses and Wheats
 with properties name, weight, price per kg.
 """
-
-
 import os
 import sys
 import json
@@ -26,7 +25,7 @@ class InventoryManagement:
     def __init__(self):
         self.data = load_data()
 
-    def StockExist(self, item, name):
+    def stockExist(self, item, name):
         """
         Description:
             this method define for check stock detail exist or not
@@ -42,7 +41,7 @@ class InventoryManagement:
         else:
             return False
 
-    def Add_stock(self, item, name, weight, price):
+    def add_stock(self, item, name, weight, price):
         """
         Description:
             this method define for add stock detail if not exist
@@ -60,10 +59,10 @@ class InventoryManagement:
                        }
         self.data[item].append(item_detail)
         upload_data(self.data)
-        loggerfile.Logger(logging.DEBUG, "detail added successfully")
+        loggerfile.Logger("debug", "detail added successfully")
         return "item added"
 
-    def Update_stock(self, item, name, update_type, update_quantity):
+    def update_stock(self, item, name, update_type, update_quantity):
         """
         Description:
             this method define for Update stock if exist
@@ -82,7 +81,7 @@ class InventoryManagement:
                 if (add_kg["name"] == name):
                     add_kg["weight"] = str(float(add_kg["weight"]) + float(update_quantity))
                     upload_data(self.data)
-                    loggerfile.Logger(logging.DEBUG, "weight updated")
+                    loggerfile.Logger("debug", "weight updated")
                     return float(add_kg["weight"]) + float(update_quantity)
 
         else:
@@ -90,7 +89,7 @@ class InventoryManagement:
                 if (price_update["name"] == name):
                     price_update["price"] = update_quantity
                     upload_data(self.data)
-                    loggerfile.Logger(logging.DEBUG, "price updated")
+                    loggerfile.Logger("debug", "price updated")
                     return update_quantity
 
     def search_data(self, item, name):
@@ -212,21 +211,21 @@ def main():
             "enter mode of Inventory Management Mode \n 0:add stock \n 1:update stock \n 2:search stock \n 3:calcutate_inventory \n 4:quit()"))
         if (InventoryManagementMode == 0):
             item, name = input_fuction("stock_exist")
-            if (ObjInventoryManagement.StockExist(item, name) == False):
+            if (ObjInventoryManagement.stockExist(item, name) == False):
                 weight, price = input_fuction("add_stock")
-                ObjInventoryManagement.Add_stock(item, name, weight, price)
+                ObjInventoryManagement.add_stock(item, name, weight, price)
             else:
                 print("stock already exist")
         elif (InventoryManagementMode == 1):
             item, name = input_fuction("stock_exist")
-            if (ObjInventoryManagement.StockExist(item, name) == True):
+            if (ObjInventoryManagement.stockExist(item, name) == True):
                 update_type, update_quantity = input_fuction("update_stock")
-                ObjInventoryManagement.Update_stock(item, name, update_type, update_quantity)
+                ObjInventoryManagement.update_stock(item, name, update_type, update_quantity)
             else:
                 print("stock not exist")
         elif (InventoryManagementMode == 2):
             item, name = input_fuction("stock_exist")
-            if (ObjInventoryManagement.StockExist(item, name) == True):
+            if (ObjInventoryManagement.stockExist(item, name) == True):
                 print(ObjInventoryManagement.search_data(item, name))
         elif (InventoryManagementMode == 3):
             list_item_not_available = []
@@ -235,7 +234,7 @@ def main():
             total = []
             while True:
                 item, name = input_fuction("stock_exist")
-                if (ObjInventoryManagement.StockExist(item, name) == True):
+                if (ObjInventoryManagement.stockExist(item, name) == True):
                     weight = input_fuction("calulate")
                     result = ObjInventoryManagement.calcutate_inventory(item, name, weight)
                     print(result)
@@ -266,9 +265,9 @@ def main():
         elif (InventoryManagementMode == 3):
             sys.exit()
         else:
-            loggerfile.Logger(logging.DEBUG, "invalid mode of Inventory Management")
+            loggerfile.Logger("debug", "invalid mode of Inventory Management")
     except ValueError as error:
-        loggerfile.Logger(logging.ERROR, "ValueError error occured")
+        loggerfile.Logger("error", "ValueError error occured")
 
 
 if __name__ == "__main__":
