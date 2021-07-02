@@ -9,6 +9,15 @@ class doctor_management:
         self.data_appointent = json_operation.load_data_appoitment()
 
     def doctor_search(self, search_type, search_detail):
+        """
+           Description:
+               in this method we are searching doctor in different ways
+           Parameter:
+               search_type(string) : type search
+               search_detail(string) : details of search
+           Return:
+               result of search
+           """
         check = False
         list_name = []
         for search in self.data_doctor:
@@ -44,6 +53,12 @@ class doctor_management:
             return (False, 0)
 
     def take_appointment(self, name):
+        """
+       Description:
+           in this method we are taking doctors appointment
+       Parameter:
+           name(string) : name of doctors
+       """
         check_appointment = False
         if (name in [name_list["name"] for name_list in self.data_doctor]):
             if (name in self.data_appointent["appointment"][0].keys()):
@@ -76,6 +91,10 @@ class doctor_management:
         return check_appointment
 
     def popular_doctor(self):
+        """
+           Description:
+               in this method we are finding popular doctor
+           """
         sorted_doctor = {key: value for key, value in
                          sorted(self.data_appointent["search_name"][0].items(), key=lambda item: int(item[1]))}
         for key, value in sorted_doctor.items():
@@ -85,6 +104,10 @@ class doctor_management:
         return True
 
     def popular_specialization(self):
+        """
+       Description:
+           in this method we are searching popular specialization
+        """
         sorted_specialization = {key: value for key, value in sorted(self.data_appointent["specialization"][0].items(),
                                                                      key=lambda item: int(item[1]))}
         for key, value in sorted_specialization.items():
