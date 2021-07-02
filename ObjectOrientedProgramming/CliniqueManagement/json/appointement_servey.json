@@ -1,0 +1,25 @@
+{
+   "appointment": [
+      {
+         "dipali": "4",
+         "aastha": "2",
+         "gourav": "2",
+         "vijay": "2"
+      }
+   ],
+   "search_name": [
+      {
+         "dipali": "51",
+         "aastha": "21",
+         "gourav": "2",
+         "vijay": "23"
+      }
+   ],
+   "specialization": [
+      {
+         "gynaecologist": "3",
+         "pediatrician": "1",
+         "cardiologist": "4"
+      }
+   ]
+}
