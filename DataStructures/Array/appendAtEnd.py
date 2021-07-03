@@ -1,3 +1,11 @@
+"""
+@Author: Ayur Ninawe
+@Date: 2021-07-03 18:15:30
+@Last Modified by: Ayur Ninawe
+@Last Modified time: 2021-07-03 18:15:30
+@Title : appending element at end.
+"""
+
 import array as arr
 
 class Arrayelement():

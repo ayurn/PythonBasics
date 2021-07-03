@@ -1,3 +1,12 @@
+"""
+@Author: Ayur Ninawe
+@Date: 2021-07-03 18:10:30
+@Last Modified by: Ayur Ninawe
+@Last Modified time: 2021-07-03 18:10:30
+@Title : Write a Python program to create an array of 5 integers and display 
+         the array items. Access individual element through indexes.
+"""
+
 import array as arr
 
 class Arrayelement():

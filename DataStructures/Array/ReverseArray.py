@@ -1,3 +1,11 @@
+"""
+@Author: Ayur Ninawe
+@Date: 2021-07-03 18:20:30
+@Last Modified by: Ayur Ninawe
+@Last Modified time: 2021-07-03 18:20:30
+@Title : Write a Python program to reverse the order of the items in the array.
+"""
+
 import array as arr 
 
 class Arrayelement():
