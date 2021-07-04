@@ -6,12 +6,15 @@
 @Title : Write a Python script to generate and print a dictionary that 
          contains a number (between 1 and n) in the form (x, x*x).
 """
+import loggerfile
 
-# 6. 
 def Generate(num):
-    dct = {}
-    for iterate in range(1, num+1):
-        dct[iterate] = iterate*iterate
-    print(dct)
+    try:
+        dct = {}
+        for iterate in range(1, num+1):
+            dct[iterate] = iterate*iterate
+        print(dct)
+    except Exception as e:
+        loggerfile.Logger("debug", print(e))
 Generate(5)
 Generate(15)

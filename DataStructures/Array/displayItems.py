@@ -8,13 +8,17 @@
 """
 
 import array as arr
+import loggerfile
 
 class Arrayelement():
     def display(self):
-        ar = arr.array('i', [1, 3, 5, 9, 7])
-        print(ar)
-        print(ar[0])
-        print(ar[3])
+        try:
+            ar = arr.array('i', [1, 3, 5, 9, 7])
+            print(ar)
+            print(ar[0])
+            print(ar[3])
+        except Exception as e:
+            loggerfile.Logger("debug", print(e))
         
 if __name__ == '__main__':
     Arrayelement.display(0)

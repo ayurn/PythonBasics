@@ -7,12 +7,16 @@
 """
 
 import array as arr 
+import loggerfile
 
 class Arrayelement():
     def display(self):
-        ar = arr.array('i', [1, 3, 5, 9, 7])
-        ar.reverse()
-        print(ar)       
+        try:
+            ar = arr.array('i', [1, 3, 5, 9, 7])
+            ar.reverse()
+            print(ar)  
+        except Exception as e:
+            loggerfile.Logger("debug", print(e))     
         
 if __name__ == '__main__':
     Arrayelement.display(0)

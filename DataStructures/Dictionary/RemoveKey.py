@@ -5,10 +5,14 @@
 @Last Modified time: 2021-07-03 18:15:30
 @Title : Write a Python program to remove a key from a dictionary.
 """
+import loggerfile
 
 def DeleteKey(dct, key):
-    print("Original Dictionary: ", dct)
-    if key in dct:
-        del dct[key]
-    print("After Delete key, dictionary is: ", dct)
+    try:
+        print("Original Dictionary: ", dct)
+        if key in dct:
+            del dct[key]
+        print("After Delete key, dictionary is: ", dct)
+    except Exception as e:
+        loggerfile.Logger("debug", print(e))
 DeleteKey({'a':1,'b':2,'c':3,'d':4}, 'c')

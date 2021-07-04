@@ -7,12 +7,16 @@
 """
 
 import array as arr
+import loggerfile
 
 class Arrayelement():
-    def display(self):
-        ar = arr.array('i', [1, 3, 5, 9, 7])
-        ar.append(69)
-        print(ar)
+    try:
+        def display(self):
+            ar = arr.array('i', [1, 3, 5, 9, 7])
+            ar.append(69)
+            print(ar)
+    except Exception as e:
+        loggerfile.Logger("debug", print(e))
 
         
 if __name__ == '__main__':

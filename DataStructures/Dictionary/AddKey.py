@@ -5,12 +5,16 @@
 @Last Modified time: 2021-07-03 18:15:30
 @Title : Write a Python script to add a key to a dictionary.
 """
+import loggerfile
 
 def addKey():
-    d = {0:10, 1:20}
-    print(d)
-    d.update({2:30})
-    print(d)
+    try:
+        d = {0:10, 1:20}
+        print(d)
+        d.update({2:30})
+        print(d)
+    except Exception as e:
+        loggerfile.Logger("debug", print(e))
     
 if __name__ == '__main__':
     addKey()
