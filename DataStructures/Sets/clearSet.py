@@ -22,7 +22,7 @@ def clear():
         charset = {'a', 'y', 'u', 'r', 'n'}
         print('set before clear:', charset)
         
-        # clearing vowels
+        # clearing set
         charset.clear()
         print('set after clear:', charset)
     except Exception :
