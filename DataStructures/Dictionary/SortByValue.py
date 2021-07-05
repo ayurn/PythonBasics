@@ -18,7 +18,7 @@ def ascdes():
         sorted_d = dict( sorted(d.items(), key=operator.itemgetter(1),reverse=True))
         print('Dictionary in descending order by value : ',sorted_d)
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
     
 if __name__ == '__main__':
     ascdes()

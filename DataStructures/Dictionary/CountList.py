@@ -24,7 +24,7 @@ def main():
                 count += len(d[x])
         print(count)
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
   
 # Calling Main    
 if __name__ == '__main__':

@@ -14,7 +14,7 @@ def addKey():
         d.update({2:30})
         print(d)
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
     
 if __name__ == '__main__':
     addKey()

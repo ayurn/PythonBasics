@@ -17,7 +17,7 @@ class Arrayelement():
             ar.remove(3)
             print(ar)
         except Exception as e:
-            loggerfile.Logger("debug", print(e))
+            loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':
     Arrayelement.display(0)

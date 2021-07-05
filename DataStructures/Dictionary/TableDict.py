@@ -14,7 +14,7 @@ def table():
         for row in zip(*([key] + (value) for key, value in sorted(my_dict.items()))):
             print(*row)
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':
     table()                    

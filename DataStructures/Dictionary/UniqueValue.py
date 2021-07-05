@@ -18,7 +18,7 @@ def unique():
                     lst.append(value)
         print("Unique values: ",set(lst))
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
     
 if __name__ == '__main__':
     unique()

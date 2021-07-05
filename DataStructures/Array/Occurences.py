@@ -16,7 +16,7 @@ class Arrayelement():
             ar = arr. array('i', [1, 3, 5, 3, 7, 9, 3])
             print(ar.count(3))
         except Exception as e:
-            loggerfile.Logger("debug", print(e))
+            loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':
     Arrayelement.display(0)

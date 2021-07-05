@@ -17,7 +17,7 @@ def countValue():
         print(sum(d['id'] for d in student))
         print(sum(d['success'] for d in student))
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':
     countValue()

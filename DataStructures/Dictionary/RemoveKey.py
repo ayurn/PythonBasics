@@ -14,5 +14,5 @@ def DeleteKey(dct, key):
             del dct[key]
         print("After Delete key, dictionary is: ", dct)
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
 DeleteKey({'a':1,'b':2,'c':3,'d':4}, 'c')

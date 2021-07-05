@@ -12,6 +12,6 @@ def Iterate(dct):
         for key, value in dct.items():
             print(f"{key}--->{value}")
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
             
 Iterate({'x': 10, 'y': 20, 'z': 30} )

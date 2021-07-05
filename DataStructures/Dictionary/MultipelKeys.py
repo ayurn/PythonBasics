@@ -19,7 +19,7 @@ def keys():
         print(student.keys() >= {'name', 'Alex'})
         print(student.keys() >= {'roll_id', 'name'})
     except Exception as e:
-        loggerfile.Logger("debug", print(e))
+        loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':
     keys()
