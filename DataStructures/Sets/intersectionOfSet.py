@@ -12,7 +12,7 @@ def intersection():
     
     """
     Description:
-        Function to create different types of set
+        Function to create intersections of set
     Parameter:
         
     Return:
