@@ -13,6 +13,6 @@ def DeleteKey(dct, key):
         if key in dct:
             del dct[key]
         print("After Delete key, dictionary is: ", dct)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
 DeleteKey({'a':1,'b':2,'c':3,'d':4}, 'c')

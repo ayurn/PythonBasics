@@ -21,7 +21,7 @@ def concat():
         for d in (dic1, dic2, dic3):
             dct.update(d)
         print("New Dictionary: ", dct)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
     
 if __name__ == '__main__':

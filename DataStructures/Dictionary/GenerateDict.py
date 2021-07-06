@@ -14,7 +14,7 @@ def Generate(num):
         for iterate in range(1, num+1):
             dct[iterate] = iterate*iterate
         print(dct)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
 Generate(5)
 Generate(15)

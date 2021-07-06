@@ -16,7 +16,7 @@ def countValue():
         {'id': 3, 'success': True, 'name': 'Alex'}]
         print(sum(d['id'] for d in student))
         print(sum(d['success'] for d in student))
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':

@@ -15,7 +15,7 @@ def nested():
             current[name] = {}
             current = current[name]
         print(new_dict)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':

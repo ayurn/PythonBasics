@@ -13,7 +13,7 @@ def addKey():
         print(d)
         d.update({2:30})
         print(d)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
     
 if __name__ == '__main__':

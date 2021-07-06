@@ -17,7 +17,7 @@ def from_string():
         for letter in str1:
             my_dict[letter] = my_dict.get(letter, 0) + 1
         print(my_dict)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
 
 if __name__ == '__main__':

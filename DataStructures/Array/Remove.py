@@ -16,7 +16,7 @@ class Arrayelement():
             ar = arr.array('i', [1, 3, 5, 3, 7, 1, 9, 3])
             ar.remove(3)
             print(ar)
-        except Exception as e:
+        except Exception :
             loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':

@@ -17,7 +17,7 @@ class Arrayelement():
             print(ar)
             print(ar[0])
             print(ar[3])
-        except Exception as e:
+        except Exception :
             loggerfile.Logger("debug", "Invalid")
         
 if __name__ == '__main__':

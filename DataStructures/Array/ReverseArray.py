@@ -15,7 +15,7 @@ class Arrayelement():
             ar = arr.array('i', [1, 3, 5, 9, 7])
             ar.reverse()
             print(ar)  
-        except Exception as e:
+        except Exception :
             loggerfile.Logger("debug", "Invalid")     
         
 if __name__ == '__main__':

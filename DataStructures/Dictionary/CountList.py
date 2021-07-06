@@ -23,7 +23,7 @@ def main():
             if isinstance(d[x], list):
                 count += len(d[x])
         print(count)
-    except Exception as e:
+    except Exception :
         loggerfile.Logger("debug", "Invalid")
   
 # Calling Main    
