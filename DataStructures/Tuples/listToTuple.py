@@ -13,10 +13,7 @@ def listToTuple():
     """
     Description:
         Function to convert a list to a tuple.
-    Parameter:
-        
-    Return:
-        
+ 
     """
     try:
         #Convert list to tuple

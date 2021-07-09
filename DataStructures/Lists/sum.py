@@ -13,10 +13,7 @@ def sum_list(items):
     """
     Description:
         Function to sum all the items in a list.
-    Parameter:
-        
-    Return:
-        
+ 
     """
     try:
         sum_numbers = 0

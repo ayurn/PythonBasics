@@ -13,10 +13,7 @@ def append():
     """
     Description:
         Function to append a list to the second list.
-    Parameter:
-        
-    Return:
-        
+       
     """
     try:
         list1 = [1, 2, 3, 0]

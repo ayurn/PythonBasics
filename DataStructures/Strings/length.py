@@ -13,10 +13,7 @@ def string_length(str1):
     """
     Description:
         Function to calculate the length of a string.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         count = 0

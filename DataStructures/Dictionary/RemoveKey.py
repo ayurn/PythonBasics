@@ -8,6 +8,10 @@
 import loggerfile
 
 def DeleteKey(dct, key):
+    """
+        Description:
+            Function to remove a key from a dictionary.
+        """
     try:
         print("Original Dictionary: ", dct)
         if key in dct:

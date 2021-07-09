@@ -13,10 +13,7 @@ def reverse():
     """
     Description:
         Function to reverse a tuple.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         #create a tuple

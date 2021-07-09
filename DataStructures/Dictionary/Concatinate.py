@@ -13,6 +13,10 @@
 import loggerfile
 
 def concat():
+    """
+        Description:
+            Function to concatenate dictionaries to create a new one.
+        """
     try:
         dic1 = {1:10, 2:20}
         dic2 = {3:30, 4:40}

@@ -12,6 +12,11 @@ import loggerfile
 
 class Arrayelement():
     def display(self):
+        """
+    Description:
+        Function to create an array of 5 integers and display 
+         the array items. Access individual element through indexes.   
+    """
         try:
             ar = arr.array('i', [1, 3, 5, 9, 7])
             print(ar)

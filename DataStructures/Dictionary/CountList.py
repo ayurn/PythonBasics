@@ -10,6 +10,11 @@
 import loggerfile
 
 def main():
+    """
+        Description:
+            Function to count number of items in a dictionary value that is a list.
+        array.
+        """
     try:
         # defining the dictionary
         d = {'A' : [1, 2, 3, 4, 5, 6, 7, 8, 9],

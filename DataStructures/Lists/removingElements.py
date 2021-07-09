@@ -13,10 +13,7 @@ def removeItem():
     """
     Description:
         Function to print a specified list after removing the 0th, 4th and 5th elements.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']

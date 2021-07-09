@@ -13,9 +13,6 @@ def get_last_part():
     """
     Description:
         Function to get the last part of a string before a specified character.
-    Parameter:
-        
-    Return:
         
     """
     try:

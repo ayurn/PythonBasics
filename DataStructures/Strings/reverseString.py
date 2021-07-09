@@ -13,10 +13,7 @@ def reverse_string(str1):
     """
     Description:
         Function to reverse a string.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         return ''.join(reversed(str1))

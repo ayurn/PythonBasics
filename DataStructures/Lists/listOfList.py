@@ -13,10 +13,7 @@ def duplicateList():
     """
     Description:
         Function to remove duplicates from a list of lists.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         import itertools

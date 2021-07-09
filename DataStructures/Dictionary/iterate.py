@@ -8,6 +8,10 @@
 import loggerfile
 
 def Iterate(dct):
+    """
+        Description:
+            Function to iterate over dictionaries using for loops.
+        """
     try:
         for key, value in dct.items():
             print(f"{key}--->{value}")

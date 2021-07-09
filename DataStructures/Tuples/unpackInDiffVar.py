@@ -13,10 +13,7 @@ def unpackTuple():
     """
     Description:
         Function to unpack a tuple in several variables.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         #create a tuple

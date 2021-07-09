@@ -8,6 +8,10 @@
 import loggerfile
 
 def find_longest_word(words_list):
+    """
+    Description:
+        function that takes a list of words and returns the length of the longest one.
+    """
     try:
         word_len = []
         for n in words_list:

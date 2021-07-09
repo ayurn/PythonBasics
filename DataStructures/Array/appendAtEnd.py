@@ -10,6 +10,11 @@ import array as arr
 import loggerfile
 
 class Arrayelement():
+    """
+    Description:
+        Function for appending element at end.
+       
+    """
     try:
         def display(self):
             ar = arr.array('i', [1, 3, 5, 9, 7])

@@ -12,6 +12,10 @@ import loggerfile
 
 class Arrayelement():
     def display(self):
+        """
+        Description:
+            Function to remove the first occurrence of a specified element from an array.
+        """
         try:
             ar = arr.array('i', [1, 3, 5, 3, 7, 1, 9, 3])
             ar.remove(3)

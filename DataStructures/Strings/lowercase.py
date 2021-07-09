@@ -13,10 +13,7 @@ def lowercase():
     """
     Description:
         Function to lowercase first n characters in a string.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
 

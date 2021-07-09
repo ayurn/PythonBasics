@@ -13,10 +13,6 @@ def sliceTuple():
     """
     Description:
         Function to slice a tuple.
-    Parameter:
-        
-    Return:
-        
     """
     try:
         #create a tuple

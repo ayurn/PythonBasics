@@ -13,10 +13,7 @@ def exist():
     """
     Description:
         Function to check whether an element exists within a tuple.
-    Parameter:
-        
-    Return:
-        
+ 
     """
     try:
         tuplex = ("a", "y", "u", "r", 6, 2, 9, 9)

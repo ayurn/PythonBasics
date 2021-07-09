@@ -11,6 +11,11 @@ import loggerfile
 from collections import defaultdict, Counter
 
 def from_string():
+    """
+        Description:
+            Function to to create a dictionary from a string.
+        array.
+        """
     try:
         str1 = 'w3resource' 
         my_dict = {}

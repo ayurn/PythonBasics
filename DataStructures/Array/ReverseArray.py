@@ -11,6 +11,10 @@ import loggerfile
 
 class Arrayelement():
     def display(self):
+        """
+        Description:
+            Function to reverse the order of the items in the array.
+        """
         try:
             ar = arr.array('i', [1, 3, 5, 9, 7])
             ar.reverse()

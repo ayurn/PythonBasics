@@ -13,10 +13,7 @@ def common():
     """
     Description:
         Function to find common items from two lists.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         color1 = "Red", "Green", "Orange", "White"

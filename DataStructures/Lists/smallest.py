@@ -13,10 +13,7 @@ def smallest_num_in_list( list ):
     """
     Description:
         Function to get the smallest number from a list.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         min = list[ 0 ]

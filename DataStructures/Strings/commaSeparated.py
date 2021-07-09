@@ -14,9 +14,7 @@ def commaSeparated():
     Description:
         Function that accepts a comma separated sequence of words as input
         and prints the unique words in sorted form.
-    Parameter:
-    Return:
-        
+
     """
     try:
         items = input("Input comma separated sequence of words")

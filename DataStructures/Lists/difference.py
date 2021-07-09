@@ -12,8 +12,7 @@ def difference():
     """
     Description:
         Function to get the difference between the two lists.
-    Parameter: 
-    Return:  
+
     """
     try:
         list1 = [1, 3, 5, 7, 9]

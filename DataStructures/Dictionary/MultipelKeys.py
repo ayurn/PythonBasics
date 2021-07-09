@@ -9,6 +9,10 @@
 import loggerfile
 
 def keys():
+    """
+        Description:
+            Function to check multiple keys exists in a dictionary.
+        """
     try:
         student = {
         'name': 'Alex',

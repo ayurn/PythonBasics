@@ -9,6 +9,11 @@
 import loggerfile
 
 def Generate(num):
+    """
+        Description:
+            Function to generate and print a dictionary that 
+         contains a number (between 1 and n) in the form (x, x*x).
+        """
     try:
         dct = {}
         for iterate in range(1, num+1):

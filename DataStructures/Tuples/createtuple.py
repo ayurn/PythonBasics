@@ -13,10 +13,7 @@ def createTuple():
     """
     Description:
         Function to create create a tuple.
-    Parameter:
-        
-    Return:
-        
+ 
     """
     try:
         #Create a tuple with different data types

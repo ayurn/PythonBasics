@@ -13,9 +13,6 @@ def permute():
     """
     Description:
         Function to generate all permutations of a list in Python.
-    Parameter:
-        
-    Return:
         
     """
     try:

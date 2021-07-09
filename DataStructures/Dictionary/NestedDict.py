@@ -7,7 +7,11 @@
 """
 import loggerfile        
         
-def nested():        
+def nested():     
+    """
+        Description:
+            Function to convert a list into a nested dictionary of keys.
+        """   
     try:    
         num_list = [1, 2, 3, 4]
         new_dict = current = {}

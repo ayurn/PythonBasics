@@ -13,10 +13,7 @@ def clone():
     """
     Description:
         Function to clone or copy a list.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         original_list = [10, 22, 44, 23, 4]

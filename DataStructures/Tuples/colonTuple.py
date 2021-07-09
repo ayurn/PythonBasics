@@ -13,10 +13,7 @@ def colonTuple():
     """
     Description:
         Function to create the colon of a tuple.
-    Parameter:
-        
-    Return:
-        
+ 
     """
     try:
         from copy import deepcopy

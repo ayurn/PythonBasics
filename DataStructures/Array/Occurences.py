@@ -12,6 +12,10 @@ import loggerfile
 
 class Arrayelement():
     def display(self):
+        """
+        Description:
+            Function to get the number of occurrences of a specified element in an array.    
+        """
         try:
             ar = arr. array('i', [1, 3, 5, 3, 7, 9, 3])
             print(ar.count(3))

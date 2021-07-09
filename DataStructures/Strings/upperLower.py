@@ -12,8 +12,7 @@ def uppperLower() :
     """
     Description:
         Function to take input from the user and displays that input back in upper and lower cases.
-    Parameter:
-    Return:
+
     """
     try:
         user_input = input("What's your favourite language? ")

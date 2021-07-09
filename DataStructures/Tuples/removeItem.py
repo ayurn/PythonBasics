@@ -13,10 +13,7 @@ def removeItem():
     """
     Description:
         Function to remove an item from a tuple.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         #create a tuple

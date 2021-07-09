@@ -13,10 +13,7 @@ def multiply_list(items):
     """
     Description:
         Function to multipy all the items in a list.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         tot = 1

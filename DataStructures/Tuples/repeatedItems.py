@@ -13,10 +13,7 @@ def repeatedItem():
     """
     Description:
         Function to find the repeated items of a tuple.
-    Parameter:
-        
-    Return:
-        
+
     """
     try:
         #create a tuple

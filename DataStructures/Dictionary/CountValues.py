@@ -10,6 +10,10 @@
 import loggerfile
         
 def countValue():
+    """
+        Description:
+            Function to count the values associated with key in a dictionary.
+        """
     try:        
         student = [{'id': 1, 'success': True, 'name': 'Lary'},
         {'id': 2, 'success': False, 'name': 'Rabi'},

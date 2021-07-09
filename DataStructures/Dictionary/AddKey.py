@@ -8,6 +8,11 @@
 import loggerfile
 
 def addKey():
+    """
+        Description:
+            Function to add a key to a dictionary.
+       
+        """
     try:
         d = {0:10, 1:20}
         print(d)

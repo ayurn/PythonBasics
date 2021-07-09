@@ -11,6 +11,10 @@ If the string length of thegiven string is less than 3, leave it unchanged.
 import loggerfile
 
 def add_string(str1):
+    """
+    Description:
+        Function to add string at end.
+    """
     try:
         length = len(str1)
 
