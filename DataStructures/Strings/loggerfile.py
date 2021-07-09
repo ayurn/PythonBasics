@@ -1,11 +1,3 @@
-"""
-@Author: Ayur Ninawe
-@Date: 2021-07-05 21:15:30
-@Last Modified by: Ayur Ninawe
-@Last Modified time: 2021-07-05 21:15:30
-@Title : Write a Python program to calculate the length of a string.
-"""
-
 import logging
 
 def Logger(set_level,text):
